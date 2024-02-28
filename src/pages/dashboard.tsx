@@ -48,7 +48,7 @@ const DashboardPage = () => {
       </Head>
       <SectionMain>
         <SectionTitleLineWithButton icon={mdiChartTimelineVariant} title="Overview" main>
-          <Button
+          {/* <Button
             href="https://github.com/justboil/admin-one-react-tailwind"
             target="_blank"
             icon={mdiGithub}
@@ -56,7 +56,7 @@ const DashboardPage = () => {
             color="contrast"
             roundedFull
             small
-          />
+          /> */}
         </SectionTitleLineWithButton>
 
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-3 mb-6">
@@ -91,7 +91,7 @@ const DashboardPage = () => {
           />
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+        {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
           <div className="flex flex-col justify-between">
             {transactions.map((transaction: Transaction) => (
               <CardBoxTransaction key={transaction.id} transaction={transaction} />
@@ -102,23 +102,23 @@ const DashboardPage = () => {
               <CardBoxClient key={client.id} client={client} />
             ))}
           </div>
-        </div>
+        </div> */}
 
-        <div className="my-6">
+        {/* <div className="my-6">
           <SectionBannerStarOnGitHub />
-        </div>
+        </div> */}
 
-        <SectionTitleLineWithButton icon={mdiChartPie} title="Trends overview">
+        <SectionTitleLineWithButton title="Trends overview">
           <Button icon={mdiReload} color="whiteDark" onClick={fillChartData} />
         </SectionTitleLineWithButton>
 
         <CardBox className="mb-6">{chartData && <ChartLineSample data={chartData} />}</CardBox>
 
-        <SectionTitleLineWithButton icon={mdiAccountMultiple} title="Clients" />
+        <SectionTitleLineWithButton title="Clients" />
 
-        <NotificationBar color="info" icon={mdiMonitorCellphone}>
+        {/* <NotificationBar color="info" icon={mdiMonitorCellphone}>
           <b>Responsive table.</b> Collapses on mobile
-        </NotificationBar>
+        </NotificationBar> */}
 
         <CardBox hasTable>
           <TableSampleClients />
