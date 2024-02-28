@@ -15,6 +15,7 @@ import SectionMain from '../components/Section/Main'
 import SectionTitle from '../components/Section/Title'
 import SectionTitleLineWithButton from '../components/Section/TitleLineWithButton'
 import { getPageTitle } from '../config'
+import RichTextEditor from '../components/RichTextEditor/RichTextEditor'
 
 const FormsPage = () => {
   return (
@@ -57,7 +58,8 @@ const FormsPage = () => {
               <Divider />
 
               <FormField label="Content" hasTextareaHeight>
-                <Field name="content" as="textarea" placeholder="Your text here" style={{ height: '300px' }} />
+                {/* <Field name="content" as="textarea" placeholder="Your text here" style={{ height: '300px' }} /> */}
+                <RichTextEditor />
               </FormField>
 
               <Divider />
