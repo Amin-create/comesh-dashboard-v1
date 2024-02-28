@@ -44,47 +44,47 @@ const UsersPage = () => {
         <title>{getPageTitle('Users Details')}</title>
       </Head>
       <SectionMain>
-        <SectionTitleLineWithButton title="User Details" main>
-
-        </SectionTitleLineWithButton>
-        {userDetails && (
-          <div className="grid grid-cols-2 gap-4">
-            <div className="col-span-2 sm:col-span-2">
-              <p className="text-lg font-semibold">ID</p>
-              <p>{userDetails.id}</p>
-            </div>
-            <div className="col-span-1">
-              <p className="text-lg font-semibold">Name</p>
-              <p>{userDetails.name}</p>
-            </div>
-            <div className="col-span-2 sm:col-span-1">
-              <p className="text-lg font-semibold">Company</p>
-              <p>{userDetails.company}</p>
-            </div>
-            <div className="col-span-2 sm:col-span-1">
-              <p className="text-lg font-semibold">City</p>
-              <p>{userDetails.city}</p>
-            </div>
-            <div className="col-span-2 sm:col-span-1">
-              <p className="text-lg font-semibold">Login</p>
-              <p>{userDetails.login}</p>
-            </div>
-            <div className="col-span-2 sm:col-span-1">
-              <p className="text-lg font-semibold">Created</p>
-              <p>{userDetails.created}</p>
-            </div>
-            <div className="col-span-2 sm:col-span-1">
-              <p className="text-lg font-semibold">Created (MM/DD/YYYY)</p>
-              <p>{userDetails.created_mm_dd_yyyy}</p>
-            </div>
-            <div className="col-span-1">
-              <p className="text-lg font-semibold">Progress</p>
-              <div className="w-[300px] bg-gray-200 rounded-full dark:bg-gray-700 mt-2">
-                <div className="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style={{ width: userDetails.progress + "%" }}> {userDetails.progress}%</div>
+        <SectionTitleLineWithButton title="User Details" main></SectionTitleLineWithButton>
+        <CardBox className="p-4 mb-6" hasTable>
+          {userDetails && (
+            <div className="grid grid-cols-2 gap-4">
+              <div className="col-span-2 sm:col-span-2">
+                <p className="text-lg font-semibold">ID</p>
+                <p>{userDetails.id}</p>
+              </div>
+              <div className="col-span-1">
+                <p className="text-lg font-semibold">Name</p>
+                <p>{userDetails.name}</p>
+              </div>
+              <div className="col-span-2 sm:col-span-1">
+                <p className="text-lg font-semibold">Company</p>
+                <p>{userDetails.company}</p>
+              </div>
+              <div className="col-span-2 sm:col-span-1">
+                <p className="text-lg font-semibold">City</p>
+                <p>{userDetails.city}</p>
+              </div>
+              <div className="col-span-2 sm:col-span-1">
+                <p className="text-lg font-semibold">Login</p>
+                <p>{userDetails.login}</p>
+              </div>
+              <div className="col-span-2 sm:col-span-1">
+                <p className="text-lg font-semibold">Created</p>
+                <p>{userDetails.created}</p>
+              </div>
+              <div className="col-span-2 sm:col-span-1">
+                <p className="text-lg font-semibold">Created (MM/DD/YYYY)</p>
+                <p>{userDetails.created_mm_dd_yyyy}</p>
+              </div>
+              <div className="col-span-1">
+                <p className="text-lg font-semibold">Progress</p>
+                <div className="w-[300px] bg-gray-200 rounded-full dark:bg-gray-700 mt-2">
+                  <div className="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style={{ width: userDetails.progress + "%" }}> {userDetails.progress}%</div>
+                </div>
               </div>
             </div>
-          </div>
-        )}
+          )}
+        </CardBox>
       </SectionMain>
     </>
   )

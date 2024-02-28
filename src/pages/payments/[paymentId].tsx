@@ -34,42 +34,41 @@ const UsersPage = () => {
         <title>{getPageTitle('Payment Details')}</title>
       </Head>
       <SectionMain>
-        <SectionTitleLineWithButton title="Payment Details" main>
-
-        </SectionTitleLineWithButton>
-
-        {transactionDetails && (
-          <div className="grid grid-cols-2 gap-4">
-            <div className="col-span-2 sm:col-span-1">
-              <p className="text-lg font-semibold">ID</p>
-              <p>{transactionDetails.id}</p>
+        <SectionTitleLineWithButton title="Payment Details" main></SectionTitleLineWithButton>
+        <CardBox className="p-4 mb-6" hasTable>
+          {transactionDetails && (
+            <div className="grid grid-cols-2 gap-4">
+              <div className="col-span-2 sm:col-span-1">
+                <p className="text-lg font-semibold">ID</p>
+                <p>{transactionDetails.id}</p>
+              </div>
+              <div className="col-span-2 sm:col-span-1">
+                <p className="text-lg font-semibold">Account</p>
+                <p>{transactionDetails.account}</p>
+              </div>
+              <div className="col-span-2 sm:col-span-1">
+                <p className="text-lg font-semibold">Amount</p>
+                <p>{transactionDetails.amount}</p>
+              </div>
+              <div className="col-span-2 sm:col-span-1">
+                <p className="text-lg font-semibold">Business</p>
+                <p>{transactionDetails.business}</p>
+              </div>
+              <div className="col-span-2 sm:col-span-1">
+                <p className="text-lg font-semibold">Date</p>
+                <p>{transactionDetails.date}</p>
+              </div>
+              <div className="col-span-2">
+                <p className="text-lg font-semibold">Name</p>
+                <p>{transactionDetails.name}</p>
+              </div>
+              <div className="col-span-2">
+                <p className="text-lg font-semibold">Type</p>
+                <p>{transactionDetails.type}</p>
+              </div>
             </div>
-            <div className="col-span-2 sm:col-span-1">
-              <p className="text-lg font-semibold">Account</p>
-              <p>{transactionDetails.account}</p>
-            </div>
-            <div className="col-span-2 sm:col-span-1">
-              <p className="text-lg font-semibold">Amount</p>
-              <p>{transactionDetails.amount}</p>
-            </div>
-            <div className="col-span-2 sm:col-span-1">
-              <p className="text-lg font-semibold">Business</p>
-              <p>{transactionDetails.business}</p>
-            </div>
-            <div className="col-span-2 sm:col-span-1">
-              <p className="text-lg font-semibold">Date</p>
-              <p>{transactionDetails.date}</p>
-            </div>
-            <div className="col-span-2">
-              <p className="text-lg font-semibold">Name</p>
-              <p>{transactionDetails.name}</p>
-            </div>
-            <div className="col-span-2">
-              <p className="text-lg font-semibold">Type</p>
-              <p>{transactionDetails.type}</p>
-            </div>
-          </div>
-        )}
+          )}
+        </CardBox>
       </SectionMain>
     </>
   )
