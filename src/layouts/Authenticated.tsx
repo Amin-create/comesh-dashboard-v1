@@ -115,7 +115,7 @@ export default function LayoutAuthenticated({ children }: Props) {
           >
             Premium version
           </a> */}
-          .
+          <></>
         </FooterBar>
       </div>
     </div>

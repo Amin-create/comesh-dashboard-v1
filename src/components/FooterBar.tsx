@@ -14,13 +14,14 @@ export default function FooterBar({ children }: Props) {
       <div className="block md:flex items-center justify-between">
         <div className="text-center md:text-left mb-6 md:mb-0">
           <b>
-            &copy;{year},{` `}
-            <a href="#" rel="noreferrer" target="_blank">
+            &copy;{year}
+            {/* ,{` `} */}
+            {/* <a href="#" rel="noreferrer" target="_blank">
               Comesh
-            </a>
-            .
+            </a> */}
+            {/* . */}
           </b>
-          {` `}
+          {/* {` `} */}
           {children}
         </div>
         <div className="md:py-2">
