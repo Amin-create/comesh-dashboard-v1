@@ -54,7 +54,7 @@ export default function LayoutAuthenticated({ children }: Props) {
         <NavBar
           menu={menuNavBar}
           // className={`${layoutAsidePadding} ${isAsideMobileExpanded ? 'ml-60 lg:ml-0' : ''}`}
-          className={`${layoutAsidePadding} ${isAsideMobileExpanded ? 'ml-[17rem] xl:ml-0' : ''}`}
+          className={`4444 ${layoutAsidePadding} ${isAsideMobileExpanded ? 'ml-[17rem] xl:ml-0' : ''}`}
         >
 
           {/* ---------- side bar toggle ---------- */}
@@ -95,7 +95,6 @@ export default function LayoutAuthenticated({ children }: Props) {
           <h2 className="text-xl md:text-xl leading-[30px] md:leading-[50px] text-center font-semibold">
             Welcome to Comesh Dashbaord
           </h2>
-
 
         </NavBar>
         <AsideMenu

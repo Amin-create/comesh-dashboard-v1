@@ -20,7 +20,7 @@ const AsideMenuItem = ({ item, isDropdownList = false }: Props) => {
   const [isDropdownActive, setIsDropdownActive] = useState(false)
 
   const activeClassAddon = !item.color && isLinkActive ? 'aside-menu-item-active font-bol d' : ''
-  const activeClassMenu = !item.color && isLinkActive ? 'bg-white bg-opacity-25' : ''
+  const activeClassMenu = !item.color && isLinkActive ? 'bg-white dark:bg-slate-900 bg-opacity-25' : ''
 
   const { asPath, isReady } = useRouter()
 

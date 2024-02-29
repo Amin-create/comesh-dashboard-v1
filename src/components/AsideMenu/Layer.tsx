@@ -38,13 +38,13 @@ export default function AsideMenuLayer({ menu, className = '', ...props }: Props
     > */}
         <div
           // className={`aside lg:rounded-2xl flex-1 flex flex-col overflow-hidden dark:bg-slate-900`}
-          className={`aside  xl:rounded-2x l flex-1 flex flex-col overflow-hidden dark:bg-slate-900`}
+          className={`aside  xl:rounded-2x l flex-1 flex flex-col overflow-hidden dark:bg-slate-800`}
         >
           <div
             className={`aside-brand flex flex-row h-14 items-center justify-between dark:bg-slate-900`}
           >
             {/* <div className="text-left flex-1 lg:text-left pl-6 lg:pl-6 xl:text-left xl:pl-6"> */}
-            <div className="text-left flex-1 lg:text-left pl-6 lg:pl-6 xl:text-left bg-white xl:pl-6 pt-3 pb-1">
+            <div className="text-left flex-1 lg:text-left pl-6 lg:pl-6 xl:text-left bg-white dark:bg-slate-800 xl:pl-6 pt-3 pb-1">
               {/* <b className="font-black">Comesh</b> */}
 
               <JustboilLogo className="w-auto h-8 md:h-6 mx-aut o" />
