@@ -26,6 +26,7 @@ import ChartLineSample from '../components/ChartLineSample'
 import NotificationBar from '../components/NotificationBar'
 import TableSampleClients from '../components/Table/SampleClients'
 import { getPageTitle } from '../config'
+import UsersListing from '../components/users/UsersListing'
 
 const DashboardPage = () => {
   const { clients } = useSampleClients()
@@ -120,9 +121,10 @@ const DashboardPage = () => {
           <b>Responsive table.</b> Collapses on mobile
         </NotificationBar> */}
 
-        <CardBox hasTable>
-          <TableSampleClients />
+        <CardBox className="mb-6" hasTable>
+          <UsersListing />
         </CardBox>
+
       </SectionMain>
     </>
   )

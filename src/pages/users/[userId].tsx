@@ -14,6 +14,10 @@ import { useSampleClients } from '../../hooks/sampleData'
 import { useRouter } from 'next/router';
 import { Client } from '../../interfaces'
 import social_media_icons from '/static/social-media-icons.png'
+import {
+  mdiAlert,
+} from '@mdi/js'
+import Icon from '../../components/Icon'
 
 const UsersPage = () => {
 
@@ -755,7 +759,9 @@ const UsersPage = () => {
               {userDetails.block === true &&
                 (
                   <div className="col-span-2 sm:col-span-2">
-                    <p className="text-red-500 font-blocked"> Blocked</p>
+                    <p className="flex text-red-500 font-blocked">
+                      <Icon path={mdiAlert} size="20" /> Blocked
+                    </p>
                   </div>
                 )}
 
@@ -767,7 +773,6 @@ const UsersPage = () => {
                 )}
             </div>
           )}
-
         </CardBox>
       </SectionMain>
     </>
