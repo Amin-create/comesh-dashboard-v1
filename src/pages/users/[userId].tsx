@@ -35,7 +35,7 @@ const UsersPage = () => {
 
   const userDetails: Client | undefined = clients.find((item: Transaction) => item.id === Number(userId))
 
-  console.log("userDetails", userDetails)
+  // console.log("userDetails", userDetails)
 
   const getFlagClass = (countryCode: string) => {
     switch (countryCode) {
@@ -566,9 +566,7 @@ const UsersPage = () => {
       case 'Northern Ireland':
         return 'fi-gb-nir';
       case 'Pacific Community':
-        return 'fi-pc';
-      case 'Saint Helena':
-        return 'fi-sh-hl';
+        return 'fi-pc';        
       case 'Scotland':
         return 'fi-gb-sct';
       case 'Tristan da Cunha':
