@@ -1,15 +1,15 @@
 import {
-  mdiMenu,
-  mdiClockOutline,
-  mdiCloud,
-  mdiCrop,
-  mdiAccount,
-  mdiCogOutline,
-  mdiEmail,
-  mdiLogout,
+  // mdiMenu,
+  // mdiClockOutline,
+  // mdiCloud,
+  // mdiCrop,
+  // mdiAccount,
+  // mdiCogOutline,
+  // mdiEmail,
+  // mdiLogout,
   mdiThemeLightDark,
-  mdiGithub,
-  mdiVuejs,
+  // mdiGithub,
+  // mdiVuejs,
 } from '@mdi/js'
 import { MenuNavBarItem } from './interfaces'
 

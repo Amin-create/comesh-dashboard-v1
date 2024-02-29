@@ -1,10 +1,10 @@
 import {
   mdiAccountMultiple,
   mdiCartOutline,
-  mdiChartPie,
+  // mdiChartPie,
   mdiChartTimelineVariant,
-  mdiGithub,
-  mdiMonitorCellphone,
+  // mdiGithub,
+  // mdiMonitorCellphone,
   mdiReload,
 } from '@mdi/js'
 import Head from 'next/head'
@@ -16,23 +16,23 @@ import SectionMain from '../components/Section/Main'
 import SectionTitleLineWithButton from '../components/Section/TitleLineWithButton'
 import CardBoxWidget from '../components/CardBox/Widget'
 import { useSampleClients, useSampleTransactions } from '../hooks/sampleData'
-import CardBoxTransaction from '../components/CardBox/Transaction'
-import { Client, Transaction } from '../interfaces'
-import CardBoxClient from '../components/CardBox/Client'
-import SectionBannerStarOnGitHub from '../components/Section/Banner/StarOnGitHub'
+// import CardBoxTransaction from '../components/CardBox/Transaction'
+// import { Client, Transaction } from '../interfaces'
+// import CardBoxClient from '../components/CardBox/Client'
+// import SectionBannerStarOnGitHub from '../components/Section/Banner/StarOnGitHub'
 import CardBox from '../components/CardBox'
 import { sampleChartData } from '../components/ChartLineSample/config'
 import ChartLineSample from '../components/ChartLineSample'
-import NotificationBar from '../components/NotificationBar'
-import TableSampleClients from '../components/Table/SampleClients'
+// import NotificationBar from '../components/NotificationBar'
+// import TableSampleClients from '../components/Table/SampleClients'
 import { getPageTitle } from '../config'
 import UsersListing from '../components/users/UsersListing'
 
 const DashboardPage = () => {
-  const { clients } = useSampleClients()
-  const { transactions } = useSampleTransactions()
+  // const { clients } = useSampleClients()
+  // const { transactions } = useSampleTransactions()
 
-  const clientsListed = clients.slice(0, 4)
+  // const clientsListed = clients.slice(0, 4)
 
   const [chartData, setChartData] = useState(sampleChartData())
 

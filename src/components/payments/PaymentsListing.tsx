@@ -5,7 +5,7 @@ import { Payments } from '../../interfaces'
 import Button from '../Button'
 import Buttons from '../Buttons'
 import CardBoxModal from '../CardBox/Modal'
-import UserAvatar from '../UserAvatar'
+// import UserAvatar from '../UserAvatar'
 import { useRouter } from 'next/router';
 
 const PaymentsListing = () => {
