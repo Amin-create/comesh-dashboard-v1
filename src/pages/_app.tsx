@@ -6,7 +6,9 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { store } from '../stores/store'
 import { Provider } from 'react-redux'
+// import 'https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.1.0/css/flag-icons.min.css';
 import '../css/main.css'
+import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 export type NextPageWithLayout<P = Record<string, unknown>, IP = P> = NextPage<P, IP> & {
   getLayout?: (page: ReactElement) => ReactNode

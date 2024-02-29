@@ -47,7 +47,7 @@ const UsersListing = () => {
         setUserToDelete(id)
     }
 
-    // console.log("clientsPaginated", clientsPaginated)
+    console.log("clientsPaginated", clientsPaginated)
 
     return (
         <>
@@ -65,14 +65,30 @@ const UsersListing = () => {
                 {/* <p>This is sample modal</p> */}
             </CardBoxModal>
 
+            {/* city
+            name
+            created
+            country
+            niches
+            interests
+            social_media_apps
+            followers
+            followings
+            media
+            location
+            willingToTravel
+            typeOfContent
+            city
+            name */}
+
             <table>
                 <thead>
                     <tr>
                         <th />
                         <th>Name</th>
-                        <th>Company</th>
+                        <th>Country</th>
                         <th>City</th>
-                        <th>Progress</th>
+                        <th>Content Type</th>
                         <th>Created</th>
                         <th />
                     </tr>
@@ -84,16 +100,10 @@ const UsersListing = () => {
                                 <UserAvatar username={client.name} className="w-24 h-24 mx-auto lg:w-6 lg:h-6" />
                             </td>
                             <td data-label="Name">{client.name}</td>
-                            <td data-label="Company">{client.company}</td>
+                            <td data-label="Company">{client.country}</td>
                             <td data-label="City">{client.city}</td>
                             <td data-label="Progress" className="lg:w-32">
-                                <progress
-                                    className="flex w-2/5 self-center lg:w-full"
-                                    max="100"
-                                    value={client.progress}
-                                >
-                                    {client.progress}
-                                </progress>
+                                {client.typeOfContent}
                             </td>
                             <td data-label="Created" className="lg:w-1 whitespace-nowrap">
                                 <small className="text-gray-500 dark:text-slate-400">{client.created}</small>
@@ -118,7 +128,7 @@ const UsersListing = () => {
                     ))}
                 </tbody>
             </table>
-            
+
             <div className="p-3 lg:px-6 border-t border-gray-100 dark:border-slate-800">
                 <div className="flex flex-col md:flex-row items-center justify-between py-3 md:py-0">
                     <Buttons>
@@ -138,7 +148,7 @@ const UsersListing = () => {
                     </small>
                 </div>
             </div>
-            
+
         </>
     )
 }

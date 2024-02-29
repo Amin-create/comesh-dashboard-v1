@@ -2,203 +2,348 @@
   "data": [
     {
       "id": 19,
-      "login": "percy64",
-      "name": "Howell Hand",
-      "company": "Kiehn-Green",
       "city": "Emelyside",
-      "progress": 70,
+      "name": "Howell Hand",
       "created": "Mar 3, 2023",
-      "created_mm_dd_yyyy": "03-03-2023"
-    },
-    {
-      "id": 11,
-      "login": "dare.concepcion",
-      "name": "Hope Howe",
-      "company": "Nolan Inc",
-      "city": "Paristown",
-      "progress": 68,
-      "created": "Dec 1, 2023",
-      "created_mm_dd_yyyy": "12-01-2023"
+      "country": "United States",
+      "niches": [
+        "Fashion",
+        "Fitness",
+        "Travel"
+      ],
+      "interests": [
+        "Photography",
+        "Technology",
+        "Cooking"
+      ],
+      "social_media_apps": [
+        "instagram",
+        "tiktok",
+        "youtube"
+      ],
+      "followers": "100k",
+      "followings": "500",
+      "media": [
+        {
+          "type": "photo",
+          "link": "https://lh3.googleusercontent.com/proxy/JzsFtanoMXT0in5yr8Nb6g09ag6W7TpSyVwmaKXiWFhDRW8syelvDOKM85IHwWY7iRDs_TDqeZQ_deJdRdBhP00X6VLPDCsGktP7hvW5q_IGGA-6H3SCshP0lZ2YK0ma84jAuGpCaejMDy9O1y1zpQ"
+        },
+        {
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=A5sFeRnIe5I&ab_channel=ShannonDizmang"
+        }
+      ],
+      "location": "New York City",
+      "willingToTravel": true,
+      "typeOfContent": "Lifestyle",
+      "reported": "",
+      "block": true
     },
     {
       "id": 32,
-      "login": "geovanni.kessler",
-      "name": "Nelson Jerde",
-      "company": "Nitzsche LLC",
       "city": "Jailynbury",
-      "progress": 49,
+      "name": "Nelson Jerde",
       "created": "May 18, 2023",
-      "created_mm_dd_yyyy": "05-18-2023"
+      "country": "United Kingdom",
+      "niches": [
+        "Technology",
+        "Gaming",
+        "Art"
+      ],
+      "interests": [
+        "Coding",
+        "Movies",
+        "Reading"
+      ],
+      "social_media_apps": [
+        "twitter",
+        "linkedin",
+        "reddit"
+      ],
+      "followers": "80k",
+      "followings": "700",
+      "media": [
+        {
+          "type": "photo",
+          "link": "https://www.forbes.com/advisor/wp-content/uploads/2023/05/Social_Media_Statistics_-_article_image.jpg"
+        },
+        {
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=QC8iQqtG0hg&ab_channel=PanamaCityNewsHerald"
+        }
+      ],
+      "location": "London",
+      "willingToTravel": true,
+      "typeOfContent": "Tech Reviews",
+      "reported": "",
+      "block": false
     },
     {
       "id": 22,
-      "login": "macejkovic.dashawn",
-      "name": "Kim Weimann",
-      "company": "Brown-Lueilwitz",
       "city": "New Emie",
-      "progress": 38,
+      "name": "Kim Weimann",
       "created": "May 4, 2023",
-      "created_mm_dd_yyyy": "05-04-2023"
+      "country": "Australia",
+      "niches": [
+        "Travel",
+        "Adventure",
+        "Outdoor"
+      ],
+      "interests": [
+        "Hiking",
+        "Photography",
+        "Sustainability"
+      ],
+      "social_media_apps": [
+        "instagram",
+        "facebook",
+        "youtube"
+      ],
+      "followers": "120k",
+      "followings": "1000",
+      "media": [
+        {
+          "type": "photo",
+          "link": "https://example.com/photo4.jpg"
+        },
+        {
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=QC8iQqtG0hg&ab_channel=PanamaCityNewsHerald"
+        }
+      ],
+      "location": "Sydney",
+      "willingToTravel": true,
+      "typeOfContent": "Travel Vlogs",
+      "reported": "",
+      "block": true
     },
     {
       "id": 34,
-      "login": "hilpert.leora",
-      "name": "Justice O'Reilly",
-      "company": "Lakin-Muller",
       "city": "New Kacie",
-      "progress": 38,
+      "name": "Justice O'Reilly",
       "created": "Mar 27, 2023",
-      "created_mm_dd_yyyy": "03-27-2023"
+      "country": "Gabon",
+      "niches": [
+        "Fashion",
+        "Beauty",
+        "Lifestyle"
+      ],
+      "interests": [
+        "Fashion Design",
+        "Makeup",
+        "Healthy Living"
+      ],
+      "social_media_apps": [
+        "instagram",
+        "twitter",
+        "tiktok"
+      ],
+      "followers": "90k",
+      "followings": "400",
+      "media": [
+        {
+          "type": "photo",
+          "link": "https://burlingtonpress.com/wp-content/uploads/2020/12/8-tips-for-using-social-media-effectively.jpg"
+        },
+        {
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=QC8iQqtG0hg&ab_channel=PanamaCityNewsHerald"
+        }
+      ],
+      "location": "Dublin",
+      "willingToTravel": false,
+      "typeOfContent": "Fashion Hauls",
+      "reported": "",
+      "block": false
     },
     {
       "id": 48,
-      "login": "ferry.sophia",
-      "name": "Adrienne Mayer III",
-      "company": "Kozey, McLaughlin and Kuhn",
       "city": "Howardbury",
-      "progress": 39,
+      "name": "Adrienne Mayer III",
       "created": "Mar 29, 2023",
-      "created_mm_dd_yyyy": "03-29-2023"
+      "country": "United States",
+      "niches": [
+        "Fitness",
+        "Wellness",
+        "Nutrition"
+      ],
+      "interests": [
+        "Yoga",
+        "Healthy Cooking",
+        "Mental Health"
+      ],
+      "social_media_apps": [
+        "instagram",
+        "youtube"
+      ],
+      "followers": "150k",
+      "followings": "800",
+      "media": [
+        {
+          "type": "photo",
+          "link": "https://example.com/photo6.jpg"
+        },
+        {
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=QC8iQqtG0hg&ab_channel=PanamaCityNewsHerald"
+        }
+      ],
+      "location": "Los Angeles",
+      "willingToTravel": true,
+      "typeOfContent": "Fitness Tips",
+      "reported": "",
+      "block": true
     },
     {
       "id": 20,
-      "login": "gokuneva",
-      "name": "Mr. Julien Ebert",
-      "company": "Cormier LLC",
       "city": "South Serenaburgh",
-      "progress": 29,
+      "name": "Mr. Julien Ebert",
       "created": "Jun 25, 2023",
-      "created_mm_dd_yyyy": "06-25-2023"
+      "country": "France",
+      "niches": [
+        "Food",
+        "Cooking",
+        "Recipes"
+      ],
+      "interests": [
+        "Baking",
+        "Food Photography",
+        "Gastronomy"
+      ],
+      "social_media_apps": [
+        "instagram",
+        "youtube",
+        "twitter"
+      ],
+      "followers": "80k",
+      "followings": "600",
+      "media": [
+        {
+          "type": "photo",
+          "link": "https://vendedigital.com/wp-content/uploads/2017/09/Vende_09-070.jpg"
+        },
+        {
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=A5sFeRnIe5I&ab_channel=ShannonDizmang"
+        }
+      ],
+      "location": "Paris",
+      "willingToTravel": true,
+      "typeOfContent": "Recipe Videos",
+      "reported": "",
+      "block": false
     },
     {
       "id": 47,
-      "login": "paolo.walter",
-      "name": "Lenna Smitham",
-      "company": "King Inc",
       "city": "McCulloughfort",
-      "progress": 59,
+      "name": "Lenna Smitham",
       "created": "Oct 8, 2023",
-      "created_mm_dd_yyyy": "10-08-2023"
+      "country": "Canada",
+      "niches": [
+        "Art",
+        "Design",
+        "Crafts"
+      ],
+      "interests": [
+        "Painting",
+        "DIY Projects",
+        "Interior Design"
+      ],
+      "social_media_apps": [
+        "instagram"
+      ],
+      "followers": "70k",
+      "followings": "500",
+      "media": [
+        {
+          "type": "photo",
+          "link": "https://example.com/photo8.jpg"
+        },
+        {
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=A5sFeRnIe5I&ab_channel=ShannonDizmang"
+        }
+      ],
+      "location": "Toronto",
+      "willingToTravel": false,
+      "typeOfContent": "Art Tutorials",
+      "reported": "",
+      "block": false
     },
     {
       "id": 24,
-      "login": "lkessler",
-      "name": "Travis Davis",
-      "company": "Leannon and Sons",
       "city": "West Frankton",
-      "progress": 52,
+      "name": "Travis Davis",
       "created": "Oct 20, 2023",
-      "created_mm_dd_yyyy": "10-20-2023"
+      "country": "United States",
+      "niches": [
+        "Photography",
+        "Travel",
+        "Adventure"
+      ],
+      "interests": [
+        "Nature",
+        "Exploration",
+        "Wildlife"
+      ],
+      "social_media_apps": [
+        "instagram",
+        "youtube",
+        "twitter"
+      ],
+      "followers": "200k",
+      "followings": "1000",
+      "media": [
+        {
+          "type": "photo",
+          "link": "https://example.com/photo9.jpg"
+        },
+        {
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=A5sFeRnIe5I&ab_channel=ShannonDizmang"
+        }
+      ],
+      "location": "New York City",
+      "willingToTravel": true,
+      "typeOfContent": "Travel Photography",
+      "reported": "",
+      "block": true
     },
     {
-      "id": 49,
-      "login": "shana.lang",
-      "name": "Prof. Esteban Steuber",
-      "company": "Langosh-Ernser",
-      "city": "East Sedrick",
-      "progress": 34,
-      "created": "May 16, 2023",
-      "created_mm_dd_yyyy": "05-16-2023"
-    },
-    {
-      "id": 36,
-      "login": "jewel07",
-      "name": "Russell Goodwin V",
-      "company": "Nolan-Stracke",
-      "city": "Williamsonmouth",
-      "progress": 55,
-      "created": "Apr 22, 2023",
-      "created_mm_dd_yyyy": "04-22-2023"
-    },
-    {
-      "id": 33,
-      "login": "burnice.okuneva",
-      "name": "Ms. Cassidy Wiegand DVM",
-      "company": "Kuhlman-Hahn",
-      "city": "New Ruthiehaven",
-      "progress": 76,
-      "created": "Sep 16, 2023",
-      "created_mm_dd_yyyy": "09-16-2023"
-    },
-    {
-      "id": 44,
-      "login": "oconnell.juanita",
-      "name": "Mr. Watson Brakus PhD",
-      "company": "Osinski, Bins and Kuhn",
-      "city": "Lake Gloria",
-      "progress": 58,
-      "created": "Jun 22, 2023",
-      "created_mm_dd_yyyy": "06-22-2023"
-    },
-    {
-      "id": 46,
-      "login": "vgutmann",
-      "name": "Mr. Garrison Friesen V",
-      "company": "VonRueden, Rippin and Pfeffer",
-      "city": "Port Cieloport",
-      "progress": 39,
-      "created": "Oct 19, 2023",
-      "created_mm_dd_yyyy": "10-19-2023"
-    },
-    {
-      "id": 14,
-      "login": "veum.lucio",
-      "name": "Ms. Sister Morar",
-      "company": "Gusikowski, Altenwerth and Abbott",
-      "city": "Lake Macville",
-      "progress": 34,
-      "created": "Jun 11, 2023",
-      "created_mm_dd_yyyy": "06-11-2023"
-    },
-    {
-      "id": 40,
-      "login": "edietrich",
-      "name": "Ms. Laisha Reinger",
-      "company": "Boehm PLC",
-      "city": "West Alexiemouth",
-      "progress": 73,
-      "created": "Nov 2, 2023",
-      "created_mm_dd_yyyy": "11-02-2023"
-    },
-    {
-      "id": 5,
-      "login": "mose44",
-      "name": "Cameron Lind",
-      "company": "Tremblay, Padberg and Pouros",
-      "city": "Naderview",
-      "progress": 59,
-      "created": "Sep 14, 2023",
-      "created_mm_dd_yyyy": "09-14-2023"
-    },
-    {
-      "id": 43,
-      "login": "rau.abelardo",
-      "name": "Sarai Little",
-      "company": "Deckow LLC",
-      "city": "Jeanieborough",
-      "progress": 49,
-      "created": "Jun 13, 2023",
-      "created_mm_dd_yyyy": "06-13-2023"
-    },
-    {
-      "id": 2,
-      "login": "imurazik",
-      "name": "Shyann Kautzer",
-      "company": "Osinski, Boehm and Kihn",
-      "city": "New Alvera",
-      "progress": 41,
-      "created": "Feb 15, 2023",
-      "created_mm_dd_yyyy": "02-15-2023"
-    },
-    {
-      "id": 15,
-      "login": "annalise97",
-      "name": "Lorna Christiansen",
-      "company": "Altenwerth-Friesen",
-      "city": "Port Elbertland",
-      "progress": 36,
-      "created": "Mar 9, 2023",
-      "created_mm_dd_yyyy": "03-09-2023"
+      "id": 11,
+      "city": "Paristown",
+      "name": "Hope Howe",
+      "created": "Dec 1, 2023",
+      "country": "Canada",
+      "niches": [
+        "Beauty",
+        "Food",
+        "Fitness"
+      ],
+      "interests": [
+        "Fashion",
+        "Travel",
+        "Music"
+      ],
+      "social_media_apps": [
+        "instagram",
+        "snapchat"
+      ],
+      "followers": "50k",
+      "followings": "300",
+      "media": [
+        {
+          "type": "photo",
+          "link": "https://example.com/photo2.jpg"
+        },
+        {
+          "type": "video",
+          "link": "https://www.youtube.com/watch?v=A5sFeRnIe5I&ab_channel=ShannonDizmang"
+        }
+      ],
+      "location": "Toronto",
+      "willingToTravel": false,
+      "typeOfContent": "Beauty"
     }
   ]
 }

@@ -65,6 +65,21 @@ export type Client = {
   progress: number
   created: string
   created_mm_dd_yyyy: string
+  country: string
+  typeOfContent: string
+  niches: string[];
+  interests: string[];
+  social_media_apps: string[];
+  media: {
+    type: string;
+    link: string;
+  }[];
+  followers: string
+  followings: string
+  location: string
+  willingToTravel: boolean
+  reported: string
+  block: boolean
 }
 
 export type Payments = {
@@ -74,7 +89,7 @@ export type Payments = {
   name: string
   date: string
   amount: number
-  type: string 
+  type: string
 }
 
 export type UserForm = {
