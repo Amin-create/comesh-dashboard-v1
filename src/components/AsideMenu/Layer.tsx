@@ -47,7 +47,9 @@ export default function AsideMenuLayer({ menu, className = '', ...props }: Props
             <div className="text-left flex-1 lg:text-left pl-6 lg:pl-6 xl:text-left bg-white dark:bg-slate-800 xl:pl-6 pt-3 pb-1">
               {/* <b className="font-black">Comesh</b> */}
 
-              <JustboilLogo className="w-auto h-8 md:h-6 mx-aut o" />
+              <JustboilLogo 
+              // className="w-auto h-8 md:h-6 mx-auto" 
+              />
 
             </div>
             <button

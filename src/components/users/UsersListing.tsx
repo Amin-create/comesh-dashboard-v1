@@ -14,6 +14,7 @@ const UsersListing = () => {
     const router = useRouter();
 
     const { clients } = useSampleClients()
+    console.log("clients", clients)
 
     const perPage = 5
 
