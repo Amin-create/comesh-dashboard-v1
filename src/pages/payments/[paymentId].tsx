@@ -14,6 +14,10 @@ import { useSampleTransactions } from '../../hooks/sampleData'
 import { useRouter } from 'next/router';
 import { Payments } from '../../interfaces'
 
+interface Transaction {
+  id: number;
+}
+
 const UsersPage = () => {
 
   const { transactions } = useSampleTransactions()
@@ -24,7 +28,7 @@ const UsersPage = () => {
 
   const { paymentId } = router.query;
 
-  const transactionDetails: Payments | undefined = transactions.find((item: any) => item.id === Number(paymentId))
+  const transactionDetails: Payments | undefined = transactions.find((item: Transaction) => item.id === Number(paymentId))
 
   console.log("transactionDetails", transactionDetails)
 

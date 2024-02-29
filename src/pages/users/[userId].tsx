@@ -19,6 +19,10 @@ import {
 } from '@mdi/js'
 import Icon from '../../components/Icon'
 
+interface Transaction {
+  id: number;
+}
+
 const UsersPage = () => {
 
   const { clients } = useSampleClients()
@@ -29,7 +33,7 @@ const UsersPage = () => {
 
   const { userId } = router.query;
 
-  const userDetails: Client | undefined = clients.find((item: any) => item.id === Number(userId))
+  const userDetails: Client | undefined = clients.find((item: Transaction) => item.id === Number(userId))
 
   console.log("userDetails", userDetails)
 
