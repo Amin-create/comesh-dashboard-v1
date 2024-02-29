@@ -17,7 +17,7 @@ import SectionTitleLineWithButton from '../components/Section/TitleLineWithButto
 import CardBoxWidget from '../components/CardBox/Widget'
 // import { useSampleClients, useSampleTransactions } from '../hooks/sampleData'
 // import CardBoxTransaction from '../components/CardBox/Transaction'
-// import { Client, Transaction } from '../interfaces'
+// import { Client, Transaction } from '../interfaces' 
 // import CardBoxClient from '../components/CardBox/Client'
 // import SectionBannerStarOnGitHub from '../components/Section/Banner/StarOnGitHub'
 import CardBox from '../components/CardBox'
