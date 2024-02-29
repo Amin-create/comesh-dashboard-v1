@@ -31,7 +31,8 @@ const CardBoxWidget = (props: Props) => {
             color={props.trendColor}
             small
           />
-          <Button icon={mdiCog} color="lightDark" small />
+          {/* stats setting button */}
+          {/* <Button icon={mdiCog} color="lightDark" small /> */}
         </div>
       )}
       <div className="flex items-center justify-between">

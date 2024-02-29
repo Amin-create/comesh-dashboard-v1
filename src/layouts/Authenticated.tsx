@@ -93,7 +93,7 @@ export default function LayoutAuthenticated({ children }: Props) {
 
 
           <h2 className="text-xl md:text-xl leading-[30px] md:leading-[50px] text-center font-semibold">
-            Comesh
+            Welcome to Comesh Dashbaord
           </h2>
 
 

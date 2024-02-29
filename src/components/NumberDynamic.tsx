@@ -47,7 +47,7 @@ const NumberDynamic = ({ prefix = '', suffix = '', value, duration = 500 }: Prop
   return (
     <div>
       {prefix}
-      {newValueFormatted}ddd
+      {newValueFormatted}
       {suffix}
     </div>
   )

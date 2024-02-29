@@ -1,13 +1,15 @@
 @layer components {
   .style-basic:not(.dark) {
     .aside {
-      @apply bg-gray-800;
+      /* @apply bg-gray-800; */
+      /* @apply  bg-gradient-to-b from-violet-500 to-fuchsia-500; */
     }
     .aside-scrollbars {
       @apply aside-scrollbars-gray;
     }
     .aside-brand {
-      @apply bg-gray-900 text-white;
+      /* @apply bg-gray-900 text-white; */
+      @apply bg-violet-500 text-white;
     }
     .aside-menu-item {
       @apply text-gray-300 hover:text-white;

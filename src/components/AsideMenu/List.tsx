@@ -10,10 +10,13 @@ type Props = {
 
 export default function AsideMenuList({ menu, isDropdownList = false, className = '' }: Props) {
   return (
-    <ul className={className}>
-      {menu.map((item, index) => (
-        <AsideMenuItem key={index} item={item} isDropdownList={isDropdownList} />
-      ))}
-    </ul>
+    <>
+      {/* <ul className={className}> */}
+      <ul className={`${className} xl:rounded-tr-2xl xl:rounded-tl-2xl`}>
+        {menu.map((item, index) => (
+          <AsideMenuItem key={index} item={item} isDropdownList={isDropdownList} />
+        ))}
+      </ul>
+    </>
   )
 }

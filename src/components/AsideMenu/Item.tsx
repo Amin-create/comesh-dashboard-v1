@@ -13,10 +13,14 @@ type Props = {
 }
 
 const AsideMenuItem = ({ item, isDropdownList = false }: Props) => {
+
+  // console.log('item.color',item.color)
+  
   const [isLinkActive, setIsLinkActive] = useState(false)
   const [isDropdownActive, setIsDropdownActive] = useState(false)
 
-  const activeClassAddon = !item.color && isLinkActive ? 'aside-menu-item-active font-bold' : ''
+  const activeClassAddon = !item.color && isLinkActive ? 'aside-menu-item-active font-bol d' : ''
+  const activeClassMenu = !item.color && isLinkActive ? 'bg-white bg-opacity-25' : ''
 
   const { asPath, isReady } = useRouter()
 
@@ -33,10 +37,10 @@ const AsideMenuItem = ({ item, isDropdownList = false }: Props) => {
   const asideMenuItemInnerContents = (
     <>
       {item.icon && (
-        <Icon path={item.icon} className={`flex-none ${activeClassAddon}`} w="w-16" size="18" />
+        <Icon path={item.icon} className={`flex-none ${activeClassAddon}`} w="w-14" size="18" />
       )}
       <span
-        className={`grow text-ellipsis line-clamp-1 ${
+        className={`grow text-ellipsis line-clamp-1 text-[18px] leading-[20px] text-semibold ${
           item.menu ? '' : 'pr-12'
         } ${activeClassAddon}`}
       >
@@ -53,15 +57,18 @@ const AsideMenuItem = ({ item, isDropdownList = false }: Props) => {
   )
 
   const componentClass = [
+    activeClassMenu,
     'flex cursor-pointer',
-    isDropdownList ? 'py-3 px-6 text-sm' : 'py-3',
+    isDropdownList ? 'py-3 px-6 text-md font-semibold' : 'py-3',
     item.color
       ? getButtonColor(item.color, false, true)
       : `aside-menu-item dark:text-slate-300 dark:hover:text-white`,
+
+      "w-[96%] mx-auto rounded-md hover:bg-white hover:bg-opacity-25"
   ].join(' ')
 
   return (
-    <li>
+    <li className='my-1'>
       {item.href && (
         <Link href={item.href} target={item.target} className={componentClass}>
           {asideMenuItemInnerContents}
